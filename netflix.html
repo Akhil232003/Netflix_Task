@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="netflix.css">
+    <link rel="icon" href="./Images/Icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header class="main_container">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/08/Netflix_2015_logo.svg" alt="Netflix Logo"  width="100" class="logo">
+        <nav class="nav_bar">
+            <a href="#first_section">Home</a>
+            <a href="#tv_shows">TV Shows</a>
+            <a href="#movies_section" >Movies</a>
+            <a href=""><input type="submit" value="Login" id="login_anchor" class="anchors"></a>
+            <a href=""><input type="submit" value="Sign Up" id="signup_anchor" class="anchors"></a>
+        </nav>
+    </header>
+    <div class="main_div" id="first_section">
+        <div class="child" id="first_child">
+            <h1 id="heading">Stranger Things</h1>
+            <p id="Paragraph">A young boy vanishes, and his friends, family, and a police chief must face a terrifying supernatural force to get him back.</p>
+            <div class="buttons">
+                    <button class="btn" id="play_button">Play</button>
+                    <button class="btn" id="list_button">My List</button>
+            </div>
+        </div>
+        <div class="child" id="second_child">
+            <div class="image_div">
+                <img src="./Images/StrangerThings.avif" alt="" id="image">
+            </div>
+        </div>
+    </div>
+    <div class="second_div" id="tv_shows">
+        <h1 id="second_heading" class="side_headings">Trending Now</h1>
+        <div class="movie_row">
+                <img src="./Images/AntMan.webp" alt="Poster 1" class="movie_poster">
+                <img src="./Images/Venom.webp" alt="Poster 2" class="movie_poster">
+                <img src="./Images/BlackWidow.jpeg" alt="Poster 3" class="movie_poster">
+                <img src="./Images/BlanckPanther.jpg" alt="Poster 4" class="movie_poster">
+                <img src="./Images/Dune.jpg" alt="Poster 5" class="movie_poster">
+        </div>
+    </div>
+    <div class="second_div" id="movies_section">
+        <h1 id="third_heading" class="side_headings">Action & Adventure</h1>
+        <div class="movie_row">
+                <img src="./Images/Hulk.jpg_large"alt="Poster 1" class="movie_poster">
+                <img src="./Images/IronMan.webp" alt="Poster 2" class="movie_poster">
+                <img src="./Images/Madmax.jpg" alt="Poster 3" class="movie_poster">
+                <img src="./Images/Thor.avif" alt="Poster 4" class="movie_poster">
+                <img src="./Images/Superman.webp" alt="Poster 5" class="movie_poster">
+        </div>
+    </div>
+    <div class="second_div" id="reasons_div">
+        <h1 id="reasons_heading" class="side_headings">More reasons to join</h1>
+        <div class="inner_div">
+            <div class="inner_child_div">
+                <h1>Enjoy On your TV</h1>
+                <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                <i class="fa-solid fa-tv card-icon"></i>
+            </div>
+            <div class="inner_child_div">
+                <h1>Download your shows to watch offline</h1>
+                <p>Save your favourites easily and always have something to watch.</p>
+                <i class="fa-solid fa-arrow-down card-icon"></i>
+            </div>
+            <div class="inner_child_div">
+                <h1>Watch everywhere</h1>
+                <p>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+                <i class="fa-solid fa-video card-icon"></i>
+            </div>
+            <div class="inner_child_div">
+                <h1>Create profiles for kids</h1>
+                <p>Send kids on adventures with their favourite characters in a space made just for them — free with your membership.</p>
+                <i class="fa-solid fa-children card-icon"></i>
+                
+            </div>
+        </div>
+    </div>
+    <center>
+        <section class="login_section">
+        <p>Ready to watch? Enter your email to create or restart your membership.</p>
+        <input type="text" name="login" id="login_inputbox" placeholder="Enter email">
+        <input type="submit" value="Get Started" id="submit_button">
+    </section>
+    </center>
+    <footer class="footer_class">
+        <div class="final_div">
+            <p id="calling_purpose">Questions? Call 000-800-040-1843</p>
+        
+            <div class="footer_links">
+                <ul>
+                    <li><a href="">FAQ</a></li>
+                    <li><a href="">Help Center</a></li>
+                    <li><a href="">Account</a></li>
+                    <li><a href="">Media Center</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Investor Relations</a></li>
+                    <li><a href="">Jobs</a></li>
+                    <li><a href="">Ways to Watch</a></li>
+                    <li><a href="">Terms of Use</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Privacy</a></li>
+                    <li><a href="">Cookie Preferences</a></li>
+                    <li><a href="">Corparate Information</a></li>
+                    <li><a href="">Contact Us</a></li>
+                </ul>
+                <ul>
+                    <li><a href="">Speed Test</a></li>
+                    <li><a href="">Legal Notices</a></li>
+                    <li><a href="">Only on Netflix</a></li>
+                </ul>
+            </div>
+            <p class="footer_bottom">Netflix India</p>
+        </div>
+    </footer>
+</body>
+</html>
